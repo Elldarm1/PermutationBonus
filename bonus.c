@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+//I used some online resources like geekforgeeks.com to help me with portions of this code
 //this function will swap the positions of the letters
 void swap(char *a, char *b)
 {
@@ -7,7 +8,7 @@ void swap(char *a, char *b)
     *a = *b;
     *b = temp;
 }
-//recusive permute function
+//recursive permute function
 // l represents the lowest index
 // h represents the highest index
 void permutation(char s[], int l, int h)
